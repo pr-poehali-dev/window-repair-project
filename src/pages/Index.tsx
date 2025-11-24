@@ -27,7 +27,7 @@ const Index = () => {
     <div className="min-h-screen">
       <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-border z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-primary">ОкнаСервис</h1>
+          <h1 className="text-2xl font-bold text-primary">Оконный сервис</h1>
           <nav className="hidden md:flex gap-6">
             <button
               onClick={() => scrollToSection("hero")}
@@ -343,7 +343,7 @@ const Index = () => {
       <footer className="bg-foreground text-background py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-sm">
-            © 2024 ОкнаСервис. Все права защищены.
+            © 2024 Оконный сервис. Все права защищены.
           </p>
         </div>
       </footer>
