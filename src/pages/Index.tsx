@@ -241,7 +241,7 @@ const Index = () => {
                 <div>
                   <h3 className="font-bold text-lg mb-1">Режим работы</h3>
                   <p className="text-muted-foreground text-lg">
-                    Пн-Вс: 8:00 - 22:00
+                    Пн-Вс: 9:00 - 21:00
                   </p>
                 </div>
               </div>
