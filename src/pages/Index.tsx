@@ -59,21 +59,23 @@ const Index = () => {
               href="https://t.me/+79810060716"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 flex items-center justify-center rounded-full bg-primary/10 hover:bg-primary hover:text-white transition-all hover-scale"
+              className="flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 hover:bg-primary hover:text-white transition-all hover-scale text-sm font-medium"
               aria-label="Telegram"
             >
-              <Icon name="Send" size={20} />
+              <Icon name="Send" size={18} />
+              <span className="hidden lg:inline">Telegram</span>
             </a>
             <a
               href="https://wa.me/79810060716"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 flex items-center justify-center rounded-full bg-primary/10 hover:bg-primary hover:text-white transition-all hover-scale"
+              className="flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 hover:bg-primary hover:text-white transition-all hover-scale text-sm font-medium"
               aria-label="WhatsApp"
             >
-              <Icon name="MessageCircle" size={20} />
+              <Icon name="MessageCircle" size={18} />
+              <span className="hidden lg:inline">WhatsApp</span>
             </a>
-            <Button onClick={() => scrollToSection("contact")}>
+            <Button onClick={() => scrollToSection("contact")} className="hidden sm:flex">
               Связаться
             </Button>
           </div>
