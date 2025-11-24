@@ -41,12 +41,7 @@ const Index = () => {
             >
               Услуги
             </button>
-            <button
-              onClick={() => scrollToSection("guarantees")}
-              className="text-foreground hover:text-primary transition-colors"
-            >
-              Гарантии
-            </button>
+
             <button
               onClick={() => scrollToSection("contact")}
               className="text-foreground hover:text-primary transition-colors"
@@ -186,68 +181,6 @@ const Index = () => {
                 </CardContent>
               </Card>
             ))}
-          </div>
-        </div>
-      </section>
-
-      <section id="guarantees" className="py-16 md:py-24 bg-secondary">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
-            Гарантии и сертификаты
-          </h2>
-          <div className="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
-            <div>
-              <img
-                src="https://cdn.poehali.dev/projects/83decc6a-9594-4ac2-a208-297a6815db20/files/7cba54a0-6666-4330-a47b-b8a2aed8d937.jpg"
-                alt="Сертификаты"
-                className="rounded-lg shadow-xl"
-              />
-            </div>
-            <div className="space-y-6">
-              {[
-                {
-                  icon: "CheckCircle2",
-                  title: "Гарантия до 5 лет",
-                  description:
-                    "Официальная гарантия на все виды выполненных работ",
-                },
-                {
-                  icon: "Award",
-                  title: "Сертифицированные мастера",
-                  description:
-                    "Все специалисты имеют соответствующие сертификаты",
-                },
-                {
-                  icon: "FileCheck",
-                  title: "Лицензированная деятельность",
-                  description:
-                    "Работаем официально с полным пакетом документов",
-                },
-                {
-                  icon: "Clock",
-                  title: "Быстрый выезд",
-                  description: "Приедем в течение 24 часов после заявки",
-                },
-              ].map((guarantee, index) => (
-                <div key={index} className="flex gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
-                    <Icon
-                      name={guarantee.icon}
-                      className="text-primary"
-                      size={24}
-                    />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-bold mb-1">
-                      {guarantee.title}
-                    </h3>
-                    <p className="text-muted-foreground">
-                      {guarantee.description}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </section>
