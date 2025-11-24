@@ -54,9 +54,29 @@ const Index = () => {
               Контакты
             </button>
           </nav>
-          <Button onClick={() => scrollToSection("contact")}>
-            Связаться
-          </Button>
+          <div className="flex items-center gap-3">
+            <a
+              href="https://t.me/+79810060716"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 flex items-center justify-center rounded-full bg-primary/10 hover:bg-primary hover:text-white transition-all hover-scale"
+              aria-label="Telegram"
+            >
+              <Icon name="Send" size={20} />
+            </a>
+            <a
+              href="https://wa.me/79810060716"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 flex items-center justify-center rounded-full bg-primary/10 hover:bg-primary hover:text-white transition-all hover-scale"
+              aria-label="WhatsApp"
+            >
+              <Icon name="MessageCircle" size={20} />
+            </a>
+            <Button onClick={() => scrollToSection("contact")}>
+              Связаться
+            </Button>
+          </div>
         </div>
       </header>
 
