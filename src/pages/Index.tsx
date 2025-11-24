@@ -244,10 +244,10 @@ const Index = () => {
                 <div>
                   <h3 className="font-bold text-lg mb-1">Телефон</h3>
                   <a
-                    href="tel:+79999999999"
+                    href="tel:+79810060716"
                     className="text-primary hover:underline text-lg"
                   >
-                    +7 (999) 999-99-99
+                    +7 (981) 006-07-16
                   </a>
                 </div>
               </div>
@@ -259,10 +259,10 @@ const Index = () => {
                 <div>
                   <h3 className="font-bold text-lg mb-1">Email</h3>
                   <a
-                    href="mailto:info@okna-service.ru"
+                    href="mailto:Avg13.08@yandex.ru"
                     className="text-primary hover:underline text-lg"
                   >
-                    info@okna-service.ru
+                    Avg13.08@yandex.ru
                   </a>
                 </div>
               </div>
@@ -274,7 +274,7 @@ const Index = () => {
                 <div>
                   <h3 className="font-bold text-lg mb-1">Адрес</h3>
                   <p className="text-muted-foreground text-lg">
-                    г. Москва, ул. Примерная, д. 1
+                    г. Всеволожск, ул. Ленинградская, д. 22
                   </p>
                 </div>
               </div>
