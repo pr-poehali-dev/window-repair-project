@@ -58,7 +58,7 @@ const Index = () => {
               aria-label="Telegram"
             >
               <Icon name="Send" size={18} />
-              <span className="hidden lg:inline">Telegram</span>
+              <span>Telegram</span>
             </a>
             <a
               href="https://wa.me/79810060716"
@@ -68,7 +68,7 @@ const Index = () => {
               aria-label="WhatsApp"
             >
               <Icon name="MessageCircle" size={18} />
-              <span className="hidden lg:inline">WhatsApp</span>
+              <span>WhatsApp</span>
             </a>
             <Button onClick={() => scrollToSection("contact")} className="hidden sm:flex">
               Связаться
